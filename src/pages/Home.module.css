@@ -1,0 +1,50 @@
+/* Home.module.css */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px); /* Adjust based on Navbar/Footer height */
+    padding: 4rem 1rem;
+    /* Example Gradient Background */
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    color: white; /* Text color on gradient */
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem; /* 48px */
+    font-weight: 700;
+    margin-bottom: 1rem; /* 16px */
+    color: white; /* Ensure high contrast */
+  }
+  
+  .subtitle {
+    font-size: 1.5rem; /* 24px */
+    margin-bottom: 2rem; /* 32px */
+    min-height: 2.5em; /* Prevent layout shift during typing */
+    color: rgba(255, 255, 255, 0.9); /* Slightly less bright */
+  }
+  
+  .description {
+    font-size: 1.125rem; /* 18px */
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto; /* 40px */
+    color: rgba(255, 255, 255, 0.85); /* Even less bright */
+  }
+  
+  .ctaButton {
+    margin: 0.5rem;
+    padding: 0.8rem 2rem;
+  }
+  
+  .secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white; /* Keep border */
+  }

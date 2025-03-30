@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Portfolio Website V1",
+      "description": "My previous personal website built with HTML, CSS, and vanilla JavaScript, featuring particle and tilt effects.",
+      "imageUrl": "/images/project1.png", // Path relative to public folder or use full URL
+      "tags": ["HTML", "CSS", "JavaScript", "Particles.js", "VanillaTilt.js"],
+      "liveUrl": "https://your-old-portfolio-link.com",
+      "repoUrl": "https://github.com/yourusername/old-portfolio"
+    },
+    {
+      "id": 2,
+      "title": "React Component Library",
+      "description": "A collection of reusable UI components built with React and styled using CSS Modules, focused on accessibility.",
+      "imageUrl": "/images/project2.png",
+      "tags": ["React", "CSS Modules", "Accessibility", "Storybook"],
+      "liveUrl": null,
+      "repoUrl": "https://github.com/yourusername/react-components"
+    },
+    {
+      "id": 3,
+      "title": "Python Data Analysis Tool",
+      "description": "A command-line tool using Pandas and Matplotlib to analyze and visualize financial data.",
+      "imageUrl": "/images/project3.png",
+      "tags": ["Python", "Pandas", "Matplotlib", "CLI"],
+      "liveUrl": null,
+      "repoUrl": "https://github.com/yourusername/data-analysis-tool"
+    }
+    // Add more projects
+  ]

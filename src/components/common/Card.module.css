@@ -1,0 +1,24 @@
+/* Card.module.css */
+.tiltWrapper {
+    /* Ensures tilt applies correctly, adjust if needed */
+    display: block;
+  }
+  
+  .card {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    padding: 1.5rem; /* 24px */
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    overflow: hidden; /* Ensure content like glare respects border radius */
+    height: 100%; /* Make card fill grid cell height */
+    display: flex; /* Optional: if you want card content to use flex */
+    flex-direction: column; /* Optional: stack content vertically */
+  }
+  
+  /* Optional hover effect if tilt is disabled */
+  .card:not(.tiltWrapper .card):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
