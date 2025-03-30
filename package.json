@@ -5,7 +5,8 @@
     "homepage": "https://rishabhmodi03.github.io/my_website/",
     "scripts": {
               "predeploy": "npm run build",
-              "deploy": "gh-pages -d build"
+              "deploy": "gh-pages -d build",
+              "build": "react-scripts build"
             },
     "dependencies": {
       "framer-motion": "latest",
