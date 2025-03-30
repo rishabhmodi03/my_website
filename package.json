@@ -8,20 +8,12 @@
               "deploy": "gh-pages -d build"
             },
     "dependencies": {
-      "framer-motion": "^11.0.0", // Choose latest stable version
+      "framer-motion": "latest",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
-      "react-parallax-tilt": "^1.7.215", // Choose latest stable version
-      "react-router-dom": "^6.22.0", // Choose latest stable version
-      "react-type-animation": "^3.2.0" // Choose latest stable version
-      // Add other dependencies like react-scripts (for CRA) or vite related deps
-    },
-    "scripts": {
-      "start": "react-scripts start", // Or "vite" if using Vite
-      "build": "react-scripts build", // Or "vite build" if using Vite
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-      // Add deployment scripts if needed
+      "react-parallax-tilt": "^1.7.215", 
+      "react-router-dom": "^6.22.0",
+      "react-type-animation": "^3.2.0"
     },
     "eslintConfig": {
       "extends": [
@@ -41,5 +33,4 @@
         "last 1 safari version"
       ]
     }
-    // Add setup for Vite if you chose Vite
   }
