@@ -3,8 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "homepage": ".", // Important for HashRouter or if deploying to root
-    // Add your actual homepage URL if using BrowserRouter + GH Pages workaround:
-    // "homepage": "https://your-username.github.io/your-repo-name/",
+    "homepage": "https://rishabhmodi03.github.io/my_website/",
+    "scripts": {
+              "predeploy": "npm run build",
+              "deploy": "gh-pages -d build"
+            },
     "dependencies": {
       "framer-motion": "^11.0.0", // Choose latest stable version
       "react": "^18.2.0",
