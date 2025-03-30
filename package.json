@@ -2,7 +2,6 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": ".", // Important for HashRouter or if deploying to root
     "homepage": "https://rishabhmodi03.github.io/my_website/",
     "scripts": {
               "predeploy": "npm run build",
